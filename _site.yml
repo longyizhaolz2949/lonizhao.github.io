@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/longyizhaolz2949/
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo

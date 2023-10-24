@@ -4,8 +4,10 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: cosmo
 ---
+
+"build website" reknit every page of the website. 
 
 # This is Jeff's awesome website
 
@@ -15,22 +17,6 @@ You can add tezt
 
 * and lists
 * with extra bullets
-
-```{r}
-library(tidyverse)
-```
-
-```{r}
-plot_df = 
-  tibble(
-    x=runif(100), 
-    y = 1+2*x+rnorm(100)
-  )
-
-plot_df |>
-  ggplot(aes(x=x, y =y)) +
-  geom_point()
-```
 
 You can *format* and **bold**
 
@@ -51,10 +37,6 @@ My cat is jumy, this is jumy
 
 
 
-
-
-
-you can also still used R
 
 
 
